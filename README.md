@@ -581,7 +581,7 @@ export function App() {
   // setTitle permite que você atualize o valor do estado e o React automaticamente re-renderiza o componente quando o estado é alterado
 ```
 
-Agora podemos armazer o que o usuário digitar no formulário.
+Agora podemos armazenar o que o usuário digitou no formulário.
 
 Vamos usar o <strong>onChange</strong> nos inputs para capturar e armazenar o que está sendo digitado:
 
