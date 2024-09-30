@@ -258,7 +258,7 @@ Altere também na tag title o título do projeto e em html lang troque a lingueg
 
  Vamos criar dentro da pasta <strong>src</strong> uma pasta com o nome <strong>components</strong>.
  
-Crie um componente com o <strong>header.jsx</strong> é um arquivo <strong>header.module.css</strong>
+Crie um componente com o nome <strong>header.jsx</strong> é um arquivo <strong>header.module.css</strong>
 
 Faça também para as tags <strong>footer</strong> e a div com a className <strong>card</strong>
 
