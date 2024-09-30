@@ -244,7 +244,7 @@ No index.html coloque o código da fonte dentro do head:
   </html>
 ```
 
-Mude também na tag title o título do projeto e em html lang troque a linguegem para pt-br.
+Altere também na tag title o título do projeto e em html lang troque a linguegem para pt-br.
 
 ---
 
