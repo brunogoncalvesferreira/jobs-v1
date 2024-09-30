@@ -266,7 +266,41 @@ Faça também para as tags <strong>footer</strong> e a div com a className <stro
 
 Agora nosso código está com os componentes que precisamos. Repara que nosso código fica mais organizado
 
-<img src="./.github/jsx.png">
+```javascript
+import styles from "./app.module.css";
+import { Card } from "./components/card";
+import { Footer } from "./components/footer";
+import { Header } from "./components/header";
+
+export function App() {
+  return (
+    <div className={styles.container}>
+      <Header />
+
+      <main>
+        <div className={styles.containerForm}>
+          <h2>Divulgar nova vaga</h2>
+          <p>Preencha os detalhes da vaga abaixo</p>
+
+          <form>
+            <input type="text" placeholder="Título da vaga" />
+            <input type="text" placeholder="Nome da empresa" />
+            <textarea placeholder="Descrição da vaga"></textarea>
+
+            <button onClick={handleCreateJob}>Publicar vaga</button>
+          </form>
+        </div>
+
+        <div className={styles.cards}>
+          <Card />
+        </div>
+      </main>
+
+      <Footer />
+    </div>
+  )
+}
+```
 
 --- 
 
