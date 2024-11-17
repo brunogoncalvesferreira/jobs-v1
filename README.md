@@ -199,7 +199,7 @@ App.jsx - Página inicial do nosso projeto que será exibida no navegador.
 
 app.module.css - Arquivo de estilização do App.jsx 
 
-index.css - Arquivo de estilização global logo.svg - Arquivo de imagem da logo do ReactJS. 
+index.css - Arquivo de estilização global 
 
 main.jsx - Arquivo responsável por inicializar nossa aplicação.
 
